@@ -10,10 +10,9 @@ export default extendTheme({
     styles: {
         global: {
             a: {
-                color: "purple.500",
+                color: "blueGray.900",
                 _hover: {
                     color: "purple.700",
-                    textDecoration: "underline",
                 },
             },
         },
