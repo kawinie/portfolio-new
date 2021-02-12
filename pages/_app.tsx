@@ -13,7 +13,7 @@ export default function MyApp({ Component, pageProps }: AppProps): ReactElement 
             <GlobalStyles />
             <Fonts />
             <ChakraProvider theme={theme}>
-                <Component tw="debug-screens" {...pageProps} />
+                <Component {...pageProps} />
             </ChakraProvider>
         </ScreenProvider>
     );
