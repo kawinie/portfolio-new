@@ -9,6 +9,9 @@ export default extendTheme({
     colors: { ...twconfig.theme.extend.colors },
     styles: {
         global: {
+            html: {
+                scrollBehavior: "smooth",
+            },
             a: {
                 color: "blueGray.900",
                 _hover: {
