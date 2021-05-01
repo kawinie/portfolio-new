@@ -206,6 +206,7 @@ export function getStaticProps(): GetStaticPropsResult<HomeProps> {
                     brief: `Mentory is a mentorship as a service platform that serves as an all-in-one place for lifelong learning. In today's ever expanding rate of information, Mentory aims to get people from point A to point B as fast as possible through mentorships from domain experts. Imagine being able to learn from the experts in all aspects of life, Mentory provides personalized mentorship that fits your learning style.
 
                     I setup the our entire development environment including our CI/CD pipeline, static code analysis, UI tools, etc. I also worked on UI, database, server, infrastructure, as well as managing the team.`,
+                    externalLink: "https://github.com/kawinie/project-mentory",
                     tags: ["TypeScript", "NextJs", "StrapiCMS"],
                 },
             ],
